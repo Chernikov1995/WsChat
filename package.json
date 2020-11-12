@@ -2,14 +2,25 @@
   "name": "wschat",
   "version": "1.0.0",
   "description": "",
-  "main": "client.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "lint": "eslint --fix",
+    "test": "jest --coverage",
+    "dev": "jest --watch"
   },
-  "author": "",
+  "keywords": [],
+  "author": "Evgeny Chernikov",
   "license": "ISC",
-  "dependencies": {
-    "ws": "^7.4.0"
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.11.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsdoc": "^30.6.5",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^7.0.1",
+    "jest": "^26.5.3"
   }
 }
